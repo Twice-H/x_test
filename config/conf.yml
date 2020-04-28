@@ -1,0 +1,27 @@
+base:
+  # log等级
+  log_level: "debug"
+  # 扩展名
+  log_extension: ".log"
+  test:
+    url: "http://app.pyhongxing.com/request"
+    case_file: "app.pyhongxing_case.xlsx"
+    case_sheet: 0
+  test1:
+    url: "http://211.103.136.242:8064"
+    case_file: "testdata.xlsx"
+    case_sheet: "美多商城接口测试"
+
+accountsinfo:
+  pmaccount: "cheat"
+  pmpassword: "1234qwe1234"
+
+  qmaccount: "qm006"
+  qmpassword: "1234qwe"
+
+  pxaccount: "py006"
+  pxpassword: "1234qwe"
+
+  hyaccount: "huiyuan001"
+  hypassword: "1234qwe"
+
